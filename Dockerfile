@@ -21,4 +21,4 @@ RUN \
 
 # If you are using this base image then you want runit to start.  The rest
 # is in configuration.
-ENTRYPOINT ["/sbin/runit"]
+ENTRYPOINT ["/sbin/runsvdir", "/service"]
